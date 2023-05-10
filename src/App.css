@@ -1,0 +1,132 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  /* height: 10vh; */
+  font-family: 'Roboto', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,100&display=swap');
+
+
+nav{
+  background-color: rgb(155, 133, 66);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.header{
+  background-color: rgb(162, 162, 171);
+  /* color: white; */
+  padding: 30px;
+  text-align: center;
+  box-shadow:rgba(0, 0, 0, 0.3) ;
+  
+  
+  
+}
+.header>a{
+  text-decoration: none;
+  margin: 12px;
+  color: black;
+}
+.header>a:hover{
+  color: blue;
+  text-decoration: underline;
+}
+.container{
+  background-color: rgb(200, 243, 243);
+  width:100vw;
+  height:100vh;
+  margin: auto;
+  padding: 4vmax 8vmax;
+  box-sizing: border-box;
+  
+}
+.container > form{
+  display: flex;
+  flex-direction: column; 
+}
+.container > h1{
+  text-align: center;
+  margin: 10px;
+  font-size: 2.5rem;
+}
+input,textarea,button
+{
+  padding: 15px;
+  border: 1px solid rgb(0,0,0,0.214);
+  border-radius: 5px;
+  margin: 8px 0px;
+  font-size: 1rem;
+  
+}
+button{
+  border: none;
+  cursor: pointer;
+  background-color: rgb(37,37,37);
+  color: white;
+  
+}
+button:hover{
+  background-color: darkgray;
+  color: cornsilk;
+}
+*{
+  /* border: 1px solid red; */
+}
+.task{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  background-color:white;
+  padding:15px;
+  border-radius: 5px;
+  /* color: rgba(0, 0, 0, 0.76); */
+  margin: 15px 0;
+ 
+  /* flex-direction:column; */
+}
+.task span{
+  /* display: flex; */
+  color: rgba(0, 0, 0, 0.673);
+}
+.task>div{
+  width: 100%;
+}
+.task button{
+  border-radius:100%;
+  height: 30px;
+  width: 30px;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.task>button:hover{
+  background-color:red;
+}
+.Contact{
+  background-color: rgb(53, 98, 82);
+  height: 100vh;
+  width: 100wh;
+}
+.About{
+  background-color: rgb(246, 165, 107);
+  height: 100vh;
+  width: 100wh;
+}
+.Services{
+  background-color: rgb(119, 64, 86);
+  height: 100vh;
+  width: 100wh;
+}
+.Footer{
+  background-color: rgb(8, 7, 7);
+  color: white;
+  height: 300px;
+}
+.User{
+  background-color: crimson;
+  height: 100vh;
+  width: 100wh;
+}
